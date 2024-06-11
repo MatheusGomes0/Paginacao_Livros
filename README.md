@@ -9,4 +9,4 @@
  ---FRONTEND---
  1. Execute o "npm install' novamente, desta vez abra o terminal denro da pasta "pag_livros".
  2. Após isso execute no terminal o "npm run dev".
- 3. Voce pode ver o front-end digitando o seguinte endereço no seu navegador:[(http://localhost:8080)]
+ 3. Voce pode ver o front-end digitando o seguinte endereço no seu navegador:[http://localhost:8080]
