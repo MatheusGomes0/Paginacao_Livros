@@ -1,0 +1,97 @@
+h1 {
+    color: #fff;
+}
+
+.App {
+    background-color: #c23d3d;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    border-radius: 8px;
+    padding: 0.5em 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: inherit;
+    background-color: #030303;
+    color: #ffffff;
+    transition: background-color 0.25s, border-color 0.25s, color 0.25s;
+    margin: 0 5px;
+}
+
+button:hover {
+    background-color: #242323;
+    color: #ffffff;
+}
+
+button:active {
+    background-color: #000;
+    color: #fff;
+}
+
+button.selected {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000000;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #494848;;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App-paginacao-info{
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.App-paginacao{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+.App-table {
+    background-color: #e2e2e2;
+    font-size: 18px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #000;
+}
+
+th {
+    background-color: #494848;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
